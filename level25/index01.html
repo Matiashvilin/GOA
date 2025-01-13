@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დარეგისტრირდი ღონისძიებაზე</title>
+</head>
+<body>
+
+    <h2>რეგისტრაცია ღონისძიებაზე</h2>
+    
+    <form action="/submit_registration" method="POST">
+        
+      
+        <label for="first-name">სახელი:</label><br>
+        <input type="text" id="first-name" name="first-name" required minlength="2" maxlength="30" placeholder="შეიყვანეთ თქვენი სახელი"><br><br>
+
+        <label for="last-name">გვარი:</label><br>
+        <input type="text" id="last-name" name="last-name" required minlength="2" maxlength="30" placeholder="შეიყვანეთ თქვენი გვარი"><br><br>
+
+        
+        <label for="email">ემაილი:</label><br>
+        <input type="email" id="email" name="email" required placeholder="შეიყვანეთ თქვენი ემაილი"><br><br>
+
+        <label for="event">ორგანიზებული ღონისძიება:</label><br>
+        <select id="event" name="event" required>
+            <option value="conference">კონფერენცია</option>
+            <option value="workshop">მასტერკლასი</option>
+            <option value="webinar">ვებინარი</option>
+            <option value="meetup">მიტროპოლიტი</option>
+        </select><br><br>
+
+        <label for="date">შეხვედრის თარიღი:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        
+        <input type="submit" value="დარეგისტრირდი">
+    </form>
+
+</body>
+</html>

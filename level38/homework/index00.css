@@ -1,0 +1,15 @@
+
+#heading-one {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+
+
+.heading-two {
+    color: green;
+    font-size: 30px;
+    text-align: left;
+    border-bottom: 2px solid black;
+}

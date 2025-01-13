@@ -1,0 +1,14 @@
+
+#unique-heading {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.class-heading {
+    color: green;
+    font-size: 28px;
+    text-align: left;
+    font-style: italic;
+}

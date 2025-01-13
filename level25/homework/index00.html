@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფორმა</title>
+</head>
+<body>
+
+    <h2>რეგისტრაციის ფორმა</h2>
+
+    <form action="/submit" method="POST">
+      
+        <label for="first-name">სახელი:</label><br>
+        <input type="text" id="first-name" name="first-name" required minlength="2" maxlength="30" placeholder="შეიყვანეთ თქვენი სახელი"><br><br>
+
+        <label for="last-name">გვარი:</label><br>
+        <input type="text" id="last-name" name="last-name" required minlength="2" maxlength="30" placeholder="შეიყვანეთ თქვენი გვარი"><br><br>
+
+        <label for="email">ემაილი:</label><br>
+        <input type="email" id="email" name="email" required placeholder="შეიყვანეთ თქვენი ემაილი"><br><br>
+
+       
+        <label for="password">პაროლი:</label><br>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="შეიყვანეთ თქვენი პაროლი"><br><br>
+
+      
+        <input type="submit" value="გაგზავნა">
+    </form>
+
+</body>
+</html>
